@@ -1,4 +1,4 @@
-name: model-sales
+name: Causal Graph
 on: [push]
 jobs:
   run:
