@@ -8,7 +8,6 @@ class Test_file(unittest.TestCase):
         path = Path('../data/data.csv')
         assert path.is_file()
 
-
     def test_diagnosis_col(self):
         df = pd.read_csv("data/data.csv")
         assert df['diagnosis'].isin(["B","M"]).all() == True
