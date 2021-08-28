@@ -8,7 +8,7 @@
 - [Notebooks](#notebooks)
 - [Technologies used](#technologies-used)
 
-### Data
+    ### Data
 
   - Data can be found [here](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29)
   - Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe the characteristics of the cell nuclei present in        the image.
@@ -16,16 +16,16 @@
   -  The number of instances present are 569, with 32 attributes.
 
 
-### Dependencies
+    ### Dependencies
 
   - To install the necessary dependencies, execute the command $ pip install -r requirements.txt
 
-### Notebooks
+    ### Notebooks
 
 - EDA.ipynb- contains the data loading and exploratory data analysis.
 - scripts folder -contains script for drawing causal graphs.
 
-### Technologies used
+    ### Technologies used
 
 - [DVC](https://dvc.org/) 
 - [MLflow](https://www.mlflow.org/)
