@@ -2,7 +2,7 @@
 import pandas as pd
 from causalnex.structure.notears import from_pandas
 from sklearn.preprocessing import LabelEncoder
-df = pd.read_csv("data/data.csv")
+df = pd.read_csv("./data/data.csv")
 df['diagnosis'] = LabelEncoder().fit_transform(df["diagnosis"])
 causal_df = df[['diagnosis','area_mean', 'concavity_mean', 'concave points_mean', 'radius_worst',
        'perimeter_worst', 'area_worst', 'concavity_worst'
