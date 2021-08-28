@@ -12,4 +12,5 @@ jobs:
          
           echo " Causal Graph"
           echo "Similarity between the two dataframes" 
+          cd scripts
           python Jaccard.py 
