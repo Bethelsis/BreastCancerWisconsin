@@ -22,5 +22,5 @@ df_2 = causal_df.iloc[:300,:]
 sm_df1 = from_pandas(df_1, w_threshold=0.8)
 sm_df2 = from_pandas(df_2, w_threshold=0.8)
 
-print("jaccard_similarity_index : "+jaccard_similarity_index(sm_df1.edges(), sm_df2.edges()))
-print("Jaccar_score : "+ Jaccar_score(sm_df1.edges(), sm_df2.edges()))
+print("jaccard_similarity_index : "+str(jaccard_similarity_index(sm_df1.edges(), sm_df2.edges())))
+print("Jaccar_score : "+ str(Jaccar_score(sm_df1.edges(), sm_df2.edges())))
