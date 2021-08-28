@@ -4,9 +4,8 @@
 ## Table of Content
 
 - [Data](#data)
-- [Install](#installation)
+- [Dependencies](#Dependencies)
 - [Notebooks](#notebooks)
-- [Scripts](#scripts)
 - [Technologies used](#technologies-used)
 
 ### Data
@@ -17,17 +16,18 @@
   -  The number of instances present are 569, with 32 attributes.
 
 
-### Installation
+### Dependencies
 
+  - To install the necessary dependencies, execute the command $ pip install -r requirements.txt
 
 ### Notebooks
 
-
-
-### Scripts
-
-
+- EDA.ipynb- contains the data loading and exploratory data analysis.
+- scripts folder -contains script for drawing causal graphs.
 
 ### Technologies used
 
+- [DVC](https://dvc.org/) 
+- [MLflow](https://www.mlflow.org/)
+- [CML](https://github.com/iterative/cml)
 
